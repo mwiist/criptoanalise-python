@@ -61,7 +61,9 @@ The initial manual hypothesis included `V → T`, `C → H`, `O → E`, and `T �
 
 Eight of ten substitution-search restarts converged to the selected key. For `circular`, the best-scoring transformation used **start = 12**, **step = 1**, and letter-only position counting. The texts were also evaluated for readability and cross-consistency; re-encryption alone checks the coherence of the inverse transformations, not the unique correctness of a key.
 
-Detailed outputs: [results summary](resultados/10_resumo.txt) · [key mapping](resultados/05_simple_chave.csv) · [search history](resultados/05_simple_evolucao.csv) · [rotation ranking](resultados/08_circular_ranking.csv).
+**Detailed outputs**
+
+[![Summary](https://img.shields.io/badge/Summary-65537C?style=for-the-badge&labelColor=191127)](resultados/10_resumo.txt) [![Key mapping](https://img.shields.io/badge/Key_Mapping-65537C?style=for-the-badge&labelColor=191127)](resultados/05_simple_chave.csv) [![Search history](https://img.shields.io/badge/Search_History-65537C?style=for-the-badge&labelColor=191127)](resultados/05_simple_evolucao.csv) [![Rotation ranking](https://img.shields.io/badge/Rotation_Ranking-65537C?style=for-the-badge&labelColor=191127)](resultados/08_circular_ranking.csv)
 
 ## Project structure
 
@@ -102,4 +104,8 @@ The script reads both files in `dados/entrada/` and the quadgram table in `dados
 
 ## References and academic context
 
-The English quadgram reference data is credited to [Lucian Buzzo's repository](https://github.com/LucianBuzzo/simple-substitution-cipher/blob/master/english_quadgrams.txt). This project was developed for Computer Architecture at UFABC in 2026.
+The English quadgram reference data is credited to Lucian Buzzo's repository.
+
+[![Quadgram source](https://img.shields.io/badge/Quadgram_Source-569ABA?style=for-the-badge&labelColor=191127)](https://github.com/LucianBuzzo/simple-substitution-cipher/blob/master/english_quadgrams.txt)
+
+This project was developed for Computer Architecture at UFABC in 2026.

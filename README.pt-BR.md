@@ -61,7 +61,9 @@ A hipótese inicial considerou `V → T`, `C → H`, `O → E` e `T → A`. A bu
 
 Oito dos dez reinícios da busca do `simple` chegaram à chave selecionada. No `circular`, a melhor transformação utilizou **início = 12**, **passo = 1**, contando somente as letras na posição. A legibilidade e a consistência entre os dois textos também sustentaram a análise; a recifragem verifica apenas a coerência das transformações inversas.
 
-Arquivos: [resumo](resultados/10_resumo.txt) · [chave](resultados/05_simple_chave.csv) · [evolução da busca](resultados/05_simple_evolucao.csv) · [ranking de rotações](resultados/08_circular_ranking.csv).
+**Arquivos de resultados**
+
+[![Resumo](https://img.shields.io/badge/Resumo-65537C?style=for-the-badge&labelColor=191127)](resultados/10_resumo.txt) [![Chave](https://img.shields.io/badge/Chave-65537C?style=for-the-badge&labelColor=191127)](resultados/05_simple_chave.csv) [![Evolução da busca](https://img.shields.io/badge/Evolu%C3%A7%C3%A3o_da_Busca-65537C?style=for-the-badge&labelColor=191127)](resultados/05_simple_evolucao.csv) [![Ranking de rotações](https://img.shields.io/badge/Ranking_de_Rota%C3%A7%C3%B5es-65537C?style=for-the-badge&labelColor=191127)](resultados/08_circular_ranking.csv)
 
 ## Organização
 
@@ -99,4 +101,6 @@ O programa usa os arquivos de `dados/entrada/` e a tabela de `dados/referencia/`
 - A pontuação é heurística e depende do corpus de quadgramas em inglês.
 - As métricas e os tempos descrevem uma execução específica com os arquivos fornecidos na atividade.
 
-Tabela de quadgramas: [repositório de Lucian Buzzo](https://github.com/LucianBuzzo/simple-substitution-cipher/blob/master/english_quadgrams.txt).
+Tabela de quadgramas utilizada: repositório de Lucian Buzzo.
+
+[![Fonte dos quadgramas](https://img.shields.io/badge/Fonte_dos_Quadgramas-569ABA?style=for-the-badge&labelColor=191127)](https://github.com/LucianBuzzo/simple-substitution-cipher/blob/master/english_quadgrams.txt)
