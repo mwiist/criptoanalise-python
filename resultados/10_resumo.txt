@@ -1,0 +1,17 @@
+RESULTADO SIMPLE
+Busca: 10 reinicios, semente 42, limite de 2000 trocas sem melhora
+Tamanho do texto: 2128 caracteres
+Avaliacoes de chaves, incluindo repeticoes: 38259
+Melhor pontuacao: -7018.9629
+Tempo da busca: 24.118 segundos
+Recifragem igual a entrada: True
+
+RESULTADO CIRCULAR
+Tamanho do texto: 448 caracteres
+Combinacoes avaliadas: 1352
+Inicio encontrado: 12
+Passo encontrado: 1
+Contou espacos e pontuacao na posicao: False
+Melhor pontuacao: -1526.7593
+Tempo da busca: 0.590 segundos
+Recifragem igual a entrada: True
