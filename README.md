@@ -2,7 +2,7 @@
 
 **Binary decoding · Classical ciphers · Frequency analysis · Heuristic key search**
 
-[Versão em português](README.pt-BR.md) · [Methodology](#methodology) · [Results](#results) · [Run](#running-the-project)
+[![Português](https://img.shields.io/badge/Portugu%C3%AAs-493B60?style=for-the-badge&labelColor=191127)](README.pt-BR.md) [![Methodology](https://img.shields.io/badge/Methodology-65537C?style=for-the-badge&labelColor=191127)](#methodology) [![Results](https://img.shields.io/badge/Results-569ABA?style=for-the-badge&labelColor=191127)](#results) [![Run](https://img.shields.io/badge/Run-8DCD45?style=for-the-badge&labelColor=191127)](#running-the-project)
 
 A Python project developed for **Computer Architecture (MCTA004-17)** at the **Federal University of ABC (UFABC)**. The assignment involved recovering two messages encoded as binary ciphertexts and identifying their underlying transformations.
 
@@ -22,6 +22,15 @@ flowchart TD
  G --> K[Re-encryption verification]
  J --> K
  K --> L[TXT and CSV results]
+    classDef input fill:#191127,stroke:#B39ADD,color:#E1DCEB,stroke-width:2px
+    classDef analysis fill:#191127,stroke:#8BBEF0,color:#E1DCEB,stroke-width:2px
+    classDef process fill:#191127,stroke:#D4F542,color:#E1DCEB,stroke-width:2px
+    classDef output fill:#342746,stroke:#8DCD45,color:#E1DCEB,stroke-width:2px
+    class A,B input
+    class C,D,F analysis
+    class E,H,I process
+    class G,J,K,L output
+    linkStyle default stroke:#A89ABD,stroke-width:2px
 ```
 
 ## Methodology

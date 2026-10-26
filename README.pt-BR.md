@@ -2,7 +2,7 @@
 
 **Conversão binária · Cifras clássicas · Análise de frequência · Busca heurística de chaves**
 
-[English](README.md) · [Metodologia](#metodologia) · [Resultados](#resultados) · [Execução](#como-executar)
+[![English](https://img.shields.io/badge/English-493B60?style=for-the-badge&labelColor=191127)](README.md) [![Metodologia](https://img.shields.io/badge/Metodologia-65537C?style=for-the-badge&labelColor=191127)](#metodologia) [![Resultados](https://img.shields.io/badge/Resultados-569ABA?style=for-the-badge&labelColor=191127)](#resultados) [![Execução](https://img.shields.io/badge/Execu%C3%A7%C3%A3o-8DCD45?style=for-the-badge&labelColor=191127)](#como-executar)
 
 Projeto da disciplina de **Arquitetura de Computadores (MCTA004-17)** da **Universidade Federal do ABC (UFABC)**. O objetivo foi recuperar duas mensagens cifradas, fornecidas em binário, e identificar as transformações aplicadas aos textos.
 
@@ -22,6 +22,15 @@ flowchart TD
  G --> K[Verificação por recifragem]
  J --> K
  K --> L[Resultados TXT e CSV]
+    classDef input fill:#191127,stroke:#B39ADD,color:#E1DCEB,stroke-width:2px
+    classDef analysis fill:#191127,stroke:#8BBEF0,color:#E1DCEB,stroke-width:2px
+    classDef process fill:#191127,stroke:#D4F542,color:#E1DCEB,stroke-width:2px
+    classDef output fill:#342746,stroke:#8DCD45,color:#E1DCEB,stroke-width:2px
+    class A,B input
+    class C,D,F analysis
+    class E,H,I process
+    class G,J,K,L output
+    linkStyle default stroke:#A89ABD,stroke-width:2px
 ```
 
 ## Metodologia
